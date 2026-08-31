@@ -1,0 +1,815 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Elara Voss — Visual Artist</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
+    rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+
+<body>
+
+  <!-- Custom Cursor -->
+  <div id="cursor"></div>
+  <div id="cursor-ring"></div>
+
+  <!-- ================= NAVBAR ================= -->
+  <nav id="navbar">
+
+    <a href="#hero" class="nav-logo">
+      Elara <span>Voss</span>
+    </a>
+
+    <div class="nav-links">
+      <a href="#hero">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#process">Process</a>
+      <a href="#testimonials">Clients</a>
+      <a href="#cta" class="nav-cta">Get in Touch</a>
+    </div>
+
+    <button id="hamburger" type="button" aria-label="Open menu">
+      <span></span>
+      <span></span>
+      <span></span>
+    </button>
+
+  </nav>
+
+  <!-- ================= MOBILE MENU ================= -->
+  <div id="mobile-menu">
+
+    <button id="close-menu" type="button" aria-label="Close menu">
+      <i data-lucide="x"></i>
+    </button>
+
+    <a href="#hero">Home</a>
+    <a href="#work">Portfolio</a>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#process">Process</a>
+    <a href="#testimonials">Clients</a>
+    <a href="#cta">Contact</a>
+
+  </div>
+
+  <!-- ================= HERO ================= -->
+  <section id="hero">
+
+    <div class="hero-bg"></div>
+    <div class="hero-overlay"></div>
+
+    <div class="hero-content">
+
+      <div class="hero-eyebrow">
+        Visual Artist & Creative Director
+      </div>
+
+      <h1 class="hero-title">
+        Designs That <em>Express</em><br>
+        Without Words
+      </h1>
+
+      <p class="hero-sub">
+        At the crossroads of emotion, form, and colour —
+        designing visual experiences that linger in memory.
+      </p>
+
+      <div class="hero-btns">
+
+        <a href="#work" class="btn-primary">
+          Browse Our Portfolio
+        </a>
+
+        <a href="#cta" class="btn-ghost">
+          Start Your Project
+        </a>
+
+      </div>
+
+    </div>
+
+    <a href="#work" class="hero-scroll">
+      <span class="scroll-line"></span>
+      Scroll
+    </a>
+
+  </section>
+
+  <!-- ================= MARQUEE ================= -->
+  <div class="marquee-wrap">
+
+    <div class="marquee-track">
+
+      <div class="marquee-item">Fine Oil Paintings</div>
+      <div class="marquee-item">Digital Design</div>
+      <div class="marquee-item">Contemporary Mixed Media</div>
+      <div class="marquee-item">Luxury Art Photography</div>
+      <div class="marquee-item">Concept Design</div>
+      <div class="marquee-item">Mural & Installation</div>
+      <div class="marquee-item">Visual Editorial Craft</div>
+      <div class="marquee-item">Luxury Brand Identity</div>
+
+      <div class="marquee-item">Fine Oil Paintings</div>
+      <div class="marquee-item">Digital Design</div>
+      <div class="marquee-item">Contemporary Mixed Media</div>
+      <div class="marquee-item">Luxury Art Photography</div>
+      <div class="marquee-item">Concept Design</div>
+      <div class="marquee-item">Mural & Installation</div>
+      <div class="marquee-item">Visual Editorial Craft</div>
+      <div class="marquee-item">Luxury Brand Identity</div>
+
+    </div>
+
+  </div>
+
+  <!-- ================= PORTFOLIO ================= -->
+  <section id="work">
+
+    <div class="container">
+
+      <div class="portfolio-header reveal">
+
+        <div class="section-label">
+          Our Selected Projects
+        </div>
+
+        <h2 class="section-title">
+          The <em>Gallery</em>
+        </h2>
+
+        <p class="section-description">
+          A refined collection of original works spanning painting,
+          digital art, photography, and installation pieces.
+        </p>
+
+      </div>
+
+      <div class="portfolio-grid">
+
+        <article class="port-item reveal">
+          <span class="port-tag">Featured</span>
+
+          <img class="port-img" src="images/Artist1.png.jpg" alt="The Crimson Reverie" loading="lazy">
+
+          <div class="port-overlay">
+            <div class="port-cat">Oil on Canvas · 2024</div>
+            <div class="port-name">The Crimson Reverie</div>
+          </div>
+        </article>
+
+        <article class="port-item reveal reveal-delay-1">
+
+          <img class="port-img" src="images/Artist2.png.jpg" alt="Fragments of Silence" loading="lazy">
+
+          <div class="port-overlay">
+            <div class="port-cat">Digital Illustration · 2024</div>
+            <div class="port-name">Fragments of Silence</div>
+          </div>
+
+        </article>
+
+        <article class="port-item reveal reveal-delay-2">
+
+          <img class="port-img" src="images/Artist3.jpg" alt="The Still Light" loading="lazy">
+
+          <div class="port-overlay">
+            <div class="port-cat">Fine Art Photography · 2023</div>
+            <div class="port-name">The Still Light</div>
+          </div>
+
+        </article>
+
+        <article class="port-item reveal reveal-delay-1">
+
+          <img class="port-img" src="images/Artist4.jpg" alt="The Inner Vessel" loading="lazy">
+
+          <div class="port-overlay">
+            <div class="port-cat">Mixed Media · 2023</div>
+            <div class="port-name">The Inner Vessel</div>
+          </div>
+
+        </article>
+
+        <article class="port-item reveal reveal-delay-2">
+
+          <img class="port-img" src="images/Artist5.jpg" alt="Eternal Tide" loading="lazy">
+
+          <div class="port-overlay">
+            <div class="port-cat">Acrylic on Canvas · 2023</div>
+            <div class="port-name">Eternal Tide</div>
+          </div>
+
+        </article>
+
+        <article class="port-item reveal reveal-delay-3">
+
+          <img class="port-img" src="images/Artist6.jpg" alt="Sacred Threshold" loading="lazy">
+
+          <div class="port-overlay">
+            <div class="port-cat">Installation Piece · 2022</div>
+            <div class="port-name">Sacred Threshold</div>
+          </div>
+
+        </article>
+
+      </div>
+
+      <div class="portfolio-button reveal">
+        <a href="#cta" class="btn-ghost">
+          Discover The Collection
+        </a>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= ABOUT ================= -->
+  <section id="about">
+
+    <div class="container about-inner">
+
+      <div class="about-img-wrap reveal">
+
+        <div class="about-badge">
+          <strong>12</strong>
+          <span>Years Exp.</span>
+        </div>
+
+        <img class="about-img" src="images/Elara Voss.jpg" alt="Elara Voss" loading="lazy">
+
+        <div class="about-img-accent"></div>
+
+      </div>
+
+      <div class="about-text reveal reveal-delay-2">
+
+        <div class="section-label">
+          About The Artist
+        </div>
+
+        <h2 class="section-title">
+          Where <em>Elegance</em><br>
+          Touches Every Stroke
+        </h2>
+
+        <p>
+          I’m Elara Voss, a multidisciplinary visual artist based in
+          Copenhagen. My work moves across oil painting, digital
+          illustration, fine art photography, and large-scale
+          installations.
+        </p>
+
+        <div class="about-stats">
+
+          <div>
+            <strong class="stat-num">250+</strong>
+            <span class="stat-label">Created Works</span>
+          </div>
+
+          <div>
+            <strong class="stat-num">42</strong>
+            <span class="stat-label">Exhibitions</span>
+          </div>
+
+          <div>
+            <strong class="stat-num">17</strong>
+            <span class="stat-label">Countries</span>
+          </div>
+
+        </div>
+
+        <a href="#cta" class="btn-primary">
+          Private Commissions
+        </a>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= SERVICES ================= -->
+  <section id="services">
+
+    <div class="container">
+
+      <div class="services-header reveal">
+
+        <div class="section-label">
+          Services Available
+        </div>
+
+        <h2 class="section-title">
+          My <em>Services</em>
+        </h2>
+
+        <p class="section-description">
+          Whether it’s fine art commissions or brand partnerships,
+          I approach every collaboration with a distinctive artistic vision.
+        </p>
+
+      </div>
+
+      <div class="services-grid">
+
+        <article class="service-card reveal">
+
+          <span class="service-num">01</span>
+
+          <div class="service-icon">
+            <i data-lucide="palette"></i>
+          </div>
+
+          <h3 class="service-title">
+            Private Commissions
+          </h3>
+
+          <p class="service-desc">
+            Bespoke oil, acrylic, or watercolour paintings created
+            specifically around your brief.
+          </p>
+
+        </article>
+
+        <article class="service-card reveal reveal-delay-1">
+
+          <span class="service-num">02</span>
+
+          <div class="service-icon">
+            <i data-lucide="monitor"></i>
+          </div>
+
+          <h3 class="service-title">
+            Digital Artworks
+          </h3>
+
+          <p class="service-desc">
+            Concept art, editorial illustration and digital artwork
+            created for modern creative projects.
+          </p>
+
+        </article>
+
+        <article class="service-card reveal reveal-delay-2">
+
+          <span class="service-num">03</span>
+
+          <div class="service-icon">
+            <i data-lucide="camera"></i>
+          </div>
+
+          <h3 class="service-title">
+            Luxury Art Photography
+          </h3>
+
+          <p class="service-desc">
+            Conceptual and editorial photography exploring identity,
+            landscape and still life.
+          </p>
+
+        </article>
+
+        <article class="service-card reveal reveal-delay-1">
+
+          <span class="service-num">04</span>
+
+          <div class="service-icon">
+            <i data-lucide="building-2"></i>
+          </div>
+
+          <h3 class="service-title">
+            Mural & Installation
+          </h3>
+
+          <p class="service-desc">
+            Large-scale murals, site-specific installations and
+            public art for commercial spaces.
+          </p>
+
+        </article>
+
+        <article class="service-card reveal reveal-delay-2">
+
+          <span class="service-num">05</span>
+
+          <div class="service-icon">
+            <i data-lucide="sparkles"></i>
+          </div>
+
+          <h3 class="service-title">
+            Creative Brand Direction
+          </h3>
+
+          <p class="service-desc">
+            Distinctive visual languages created for forward-thinking
+            brands and creative campaigns.
+          </p>
+
+        </article>
+
+        <article class="service-card reveal reveal-delay-3">
+
+          <span class="service-num">06</span>
+
+          <div class="service-icon">
+            <i data-lucide="graduation-cap"></i>
+          </div>
+
+          <h3 class="service-title">
+            Workshops & Mentorship
+          </h3>
+
+          <p class="service-desc">
+            Intensive workshops and one-on-one mentorship for
+            emerging artists.
+          </p>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= PROCESS ================= -->
+  <section id="process">
+
+    <div class="container">
+
+      <div class="process-heading reveal">
+
+        <div class="section-label">
+          The Workflow
+        </div>
+
+        <h2 class="section-title">
+          The Creative <em>Journey</em>
+        </h2>
+
+        <p class="section-description">
+          Every commission is shaped through a thoughtful,
+          collaborative journey.
+        </p>
+
+      </div>
+
+      <div class="process-steps">
+
+        <div class="process-step reveal">
+          <div class="step-circle">01</div>
+
+          <h3 class="step-title">
+            Getting Started Call
+          </h3>
+
+          <p class="step-desc">
+            We take time to understand your vision,
+            space and intentions.
+          </p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-1">
+          <div class="step-circle">02</div>
+
+          <h3 class="step-title">
+            Concept & Sketch
+          </h3>
+
+          <p class="step-desc">
+            Initial concepts and compositional sketches
+            are developed for your review.
+          </p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-2">
+          <div class="step-circle">03</div>
+
+          <h3 class="step-title">
+            Artistic Creation
+          </h3>
+
+          <p class="step-desc">
+            The piece comes to life in the studio with
+            regular progress updates.
+          </p>
+        </div>
+
+        <div class="process-step reveal reveal-delay-3">
+          <div class="step-circle">04</div>
+
+          <h3 class="step-title">
+            Delivery & Installation
+          </h3>
+
+          <p class="step-desc">
+            Each piece is carefully packaged, shipped
+            and installed when required.
+          </p>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= TESTIMONIALS ================= -->
+  <section id="testimonials">
+
+    <div class="container">
+
+      <div class="reveal">
+
+        <div class="section-label">
+          Client Feedback
+        </div>
+
+        <h2 class="section-title">
+          Client <em>Testimonials</em>
+        </h2>
+
+      </div>
+
+      <div class="testimonials-grid">
+
+        <article class="testimonial-card reveal">
+
+          <span class="quote-mark">"</span>
+
+          <div class="star-row">
+            ★★★★★
+          </div>
+
+          <p class="testimonial-text">
+            Elara’s gift for turning abstract emotion into
+            a striking physical image is exceptional.
+          </p>
+
+          <div class="testimonial-author">
+
+            <img class="author-avatar" src="images/Sofia Laurent.jpg" alt="Sofia Laurent">
+
+            <div>
+              <h3 class="author-name">
+                Sofia Laurent
+              </h3>
+
+              <span class="author-role">
+                Private Commission Client, Paris
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
+        <article class="testimonial-card reveal reveal-delay-1">
+
+          <span class="quote-mark">"</span>
+
+          <div class="star-row">
+            ★★★★★
+          </div>
+
+          <p class="testimonial-text">
+            Working with Elara on our hotel lobby installation
+            was a revelation.
+          </p>
+
+          <div class="testimonial-author">
+
+            <img class="author-avatar" src="images/Marcus Reid.jpg" alt="Marcus Reid">
+
+            <div>
+              <h3 class="author-name">
+                Marcus Reid
+              </h3>
+
+              <span class="author-role">
+                Creative Lead, Hôtel Soleil
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
+        <article class="testimonial-card reveal reveal-delay-2">
+
+          <span class="quote-mark">"</span>
+
+          <div class="star-row">
+            ★★★★★
+          </div>
+
+          <p class="testimonial-text">
+            The illustrations Elara created for our editorial
+            campaign brought the entire story to life.
+          </p>
+
+          <div class="testimonial-author">
+
+            <img class="author-avatar" src="images/Yuki Tanaka.jpg" alt="Yuki Tanaka">
+
+            <div>
+              <h3 class="author-name">
+                Yuki Tanaka
+              </h3>
+
+              <span class="author-role">
+                Art & Design Director
+              </span>
+            </div>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- ================= CTA ================= -->
+  <section id="cta">
+
+    <div class="container cta-container">
+
+      <div class="section-label reveal">
+        Begin A Conversation
+      </div>
+
+      <h2 class="cta-title reveal reveal-delay-1">
+        Let’s Build<br>
+        <em>Something Timeless</em>
+      </h2>
+
+      <p class="cta-sub reveal reveal-delay-2">
+        Whether you're a collector, a brand, or a fellow creative,
+        I’d love to learn about your project.
+      </p>
+
+      <form class="cta-form reveal reveal-delay-3" id="cta-form">
+
+        <input id="email-input" type="email" placeholder="your@email.com" autocomplete="email" required>
+
+        <button type="submit">
+          Send
+        </button>
+
+      </form>
+
+      <p class="cta-note">
+        We never send spam. Unsubscribe whenever you like.
+      </p>
+
+      <p id="form-message"></p>
+
+    </div>
+
+  </section>
+
+  <!-- ================= FOOTER ================= -->
+  <footer>
+
+    <div class="container">
+
+      <div class="footer-top">
+
+        <div class="footer-brand">
+
+          <a href="#hero" class="nav-logo footer-logo">
+            Elara <span>Voss</span>
+          </a>
+
+          <p>
+            Visual artist & creative director based in Copenhagen.
+            Available for commissions, brand collaborations,
+            and exhibitions worldwide.
+          </p>
+
+          <div class="footer-socials">
+
+            <a href="https://www.instagram.com/" target="_blank" rel="noopener" class="social-btn"
+              aria-label="Instagram">
+              <i data-lucide="instagram"></i>
+            </a>
+
+            <a href="https://www.linkedin.com/" target="_blank" rel="noopener" class="social-btn" aria-label="LinkedIn">
+              <i data-lucide="linkedin"></i>
+            </a>
+
+            <a href="https://www.pinterest.com/" target="_blank" rel="noopener" class="social-btn"
+              aria-label="Pinterest">
+              <i data-lucide="image"></i>
+            </a>
+
+          </div>
+
+        </div>
+
+        <div class="footer-menu">
+
+          <div class="footer-col">
+
+            <h5>Portfolio</h5>
+
+            <ul>
+              <li><a href="#work">Oil & Acrylic</a></li>
+              <li><a href="#work">Digital Work</a></li>
+              <li><a href="#work">Photography</a></li>
+              <li><a href="#work">Installations</a></li>
+              <li><a href="#cta">Commissions</a></li>
+            </ul>
+
+          </div>
+
+          <div class="footer-col">
+
+            <h5>Studio</h5>
+
+            <ul>
+              <li><a href="#about">About Elara</a></li>
+              <li><a href="#process">Process</a></li>
+              <li><a href="#services">Workshops</a></li>
+              <li><a href="#testimonials">Clients</a></li>
+              <li><a href="#cta">Contact</a></li>
+            </ul>
+
+          </div>
+
+          <div class="footer-col">
+
+            <h5>Contact</h5>
+
+            <ul>
+              <li>
+                <a href="mailto:hello@elaravoss.com">
+                  hello@elaravoss.com
+                </a>
+              </li>
+
+              <li>
+                <a href="tel:+4512345678">
+                  +45 12 34 56 78
+                </a>
+              </li>
+
+              <li>
+                <a href="#cta">
+                  Copenhagen, DK
+                </a>
+              </li>
+
+              <li>
+                <a href="https://www.instagram.com/" target="_blank">
+                  Instagram DMs
+                </a>
+              </li>
+            </ul>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="footer-copy">
+          © 2026 <span>Elara Voss</span>.
+          All rights reserved.
+        </p>
+
+        <button class="back-top" id="back-top" type="button" aria-label="Back to top">
+          <i data-lucide="arrow-up"></i>
+        </button>
+
+      </div>
+
+    </div>
+
+  </footer>
+
+  <script src="main.js"></script>
+
+</body>
+
+</html>
